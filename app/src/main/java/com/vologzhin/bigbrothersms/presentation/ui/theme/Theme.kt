@@ -1,4 +1,4 @@
-package com.vologzhin.bigbrothersms.ui.theme
+package com.vologzhin.bigbrothersms.presentation.ui.theme
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material.MaterialTheme
@@ -33,9 +33,9 @@ fun BigBrotherSmsTheme(
     content: @Composable () -> Unit
 ) {
     val colors = if (darkTheme) {
-        DarkColorPalette
-    } else {
         LightColorPalette
+    } else {
+        DarkColorPalette
     }
 
     MaterialTheme(

@@ -1,4 +1,4 @@
-package com.vologzhin.bigbrothersms.ui.theme
+package com.vologzhin.bigbrothersms.presentation.ui.theme
 
 import androidx.compose.material.Typography
 import androidx.compose.ui.text.TextStyle
